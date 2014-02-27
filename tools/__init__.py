@@ -12,7 +12,7 @@
 from PyQt4.QtCore import QObject,SIGNAL,Qt
 from PyQt4.QtGui import QMainWindow,QDesktopServices
 from qgis.core import *
-from infotools.utils import RESOLUTIONS
+from ..utils import RESOLUTIONS
 
 class InfoTool(object):
     def __init__(self,window):

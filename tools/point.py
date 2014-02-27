@@ -13,8 +13,8 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
 from qgis.gui import *
-from infotools.tools import InfoTool
-from infotools.ui.templates import pointInfos
+from . import InfoTool
+from ..ui.templates import pointInfos
 
 class PointInfoTool(InfoTool):
     def __init__(self,window):

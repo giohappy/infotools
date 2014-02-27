@@ -13,9 +13,9 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
 from qgis.gui import *
-from infotools.tools import InfoTool
-from infotools.ui.templates import rectInfos
-from infotools import utils
+from . import InfoTool
+from ..ui.templates import rectInfos
+from .. import utils
 
 class RectInfoTool(InfoTool):
     def __init__(self,window):

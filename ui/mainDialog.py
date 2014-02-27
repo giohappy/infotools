@@ -12,8 +12,8 @@
 from PyQt4.QtCore import QObject,SIGNAL,Qt
 from PyQt4.QtGui import QMainWindow,QDesktopServices
 from qgis.core import *
-from infotools.tools.rect import RectInfoTool
-from infotools.tools.point import PointInfoTool
+from ..tools.rect import RectInfoTool
+from ..tools.point import PointInfoTool
 from .mainwindow import Ui_MainWindow
 from .about import aboutText
 

@@ -13,7 +13,7 @@ import os
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from qgis.core import *
-from ui.mainDialog import InfoDialog
+from .ui.mainDialog import InfoDialog
 
 class InfoToolsPlugin:
     def __init__(self, iface):
