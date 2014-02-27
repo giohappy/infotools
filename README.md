@@ -30,3 +30,5 @@ Roadmap
 
 The next tools I will add are WKT from features, draw points/lines/polygons and get WKT and KML.
 Anything useful will be added. If you want to add you own do not esitate to contribute ;)
+
+![Infotools screenshot](https://github.com/giohappy/files/blob/master/images/infotools1.png)
