@@ -1,0 +1,7 @@
+[general]
+name=InfoTools
+qgisMinimumVersion=2.0
+description=Info Utilities
+version=version 1.0
+author=Giovanni Allegri
+email=giovanni.allegri@gmail.com
