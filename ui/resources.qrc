@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/infotools">
-        <file alias="rect">rect_sel.png</file>
-        <file alias="info">info.png</file>
-        <file alias="point">point.png</file>
-        <file alias="pointcursor">pointcursor.png</file>
-        <file alias="about">about.png</file>
-    </qresource>
-</RCC>
