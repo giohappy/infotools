@@ -5,3 +5,4 @@ description=Info Utilities
 version=version 1.0
 author=Giovanni Allegri
 email=giovanni.allegri@gmail.com
+icon=infotools.png
