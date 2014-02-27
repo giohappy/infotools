@@ -21,13 +21,13 @@ class InfoToolsPlugin:
         self.dialog = None
 
     def initGui(self):
-        self.action1 = QAction(QIcon(QPixmap(":/infotools/info")),"&Infotools", self.iface.mainWindow())
+        self.action1 = QAction(QIcon(QPixmap(":/infotools/info")),"&Info Tools", self.iface.mainWindow())
         QObject.connect(self.action1, SIGNAL("triggered()"), self.runapp)
         self.iface.addToolBarIcon(self.action1)
-        self.iface.addPluginToMenu("Infotools", self.action1)
+        self.iface.addPluginToMenu("Info Tools", self.action1)
 
     def unload(self):
-        self.iface.removePluginMenu("Infotools",self.action1)
+        self.iface.removePluginMenu("Info Tools",self.action1)
         self.iface.removeToolBarIcon(self.action1)
         if self.dialog:
             self.dialog.unLoad()
