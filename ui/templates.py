@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+#-----------------------------------------------------------
+#
+# InfoTools
+# Copyright (C) 2014  Giovanni Allegri
+# EMAIL: giovanni.allegri (at) gmail.com
+# WEB  : https://github.com/giohappy/infotools
+#
+# A collection of tools to grab utiliy informations from maps
+#
+#-----------------------------------------------------------
 rectInfos = '''
     <b>BBOX</b> (xmin,ymin,xmax,ymax):<br>
     {xmin},{ymin},{xmax},{ymax}<br>

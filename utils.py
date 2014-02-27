@@ -1,4 +1,14 @@
- # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+#-----------------------------------------------------------
+#
+# InfoTools
+# Copyright (C) 2014  Giovanni Allegri
+# EMAIL: giovanni.allegri (at) gmail.com
+# WEB  : https://github.com/giohappy/infotools
+#
+# A collection of tools to grab utiliy informations from maps
+#
+#-----------------------------------------------------------
 from PyQt4.QtGui import QMessageBox
 from qgis.core import QGis,QgsMessageLog
 
