@@ -43,8 +43,9 @@ class InfoDialog(QMainWindow,Ui_MainWindow):
     def openLink(self,url):
         QDesktopServices.openUrl(url)
         
-    def unLoad(self):
+    def closeEvent(self, event):
         self.tool = None
+        event.accept()
         
     def setResult(self,text):
         self.textarea.setHtml(text)

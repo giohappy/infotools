@@ -30,11 +30,10 @@ class InfoToolsPlugin:
         self.iface.removePluginMenu("Info Tools",self.action1)
         self.iface.removeToolBarIcon(self.action1)
         if self.dialog:
-            self.dialog.unLoad()
             self.dialog.close()
-            self.dialog = None
+            #self.dialog = None
 
     def runapp(self):
         if not self.dialog:
             self.dialog = InfoDialog(self.iface)
-            self.dialog.show()
+        self.dialog.show()
