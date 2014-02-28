@@ -30,6 +30,8 @@ rectInfos = '''
     <a href="http://bing.com/maps/default.aspx?cp={y}~{x}&lvl={z}">Bing Maps</a><br>
     <b>WMS parameters</b>:<br>
     SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS={visiblelayers}&CRS={crs}&BBOX={xmin},{ymin},{xmax},{ymax}&WIDTH={grwidth},&HEIGHT={grheight}<br>
+    <b>RealVista WMS Service (Italy only)</b>:<br>
+    <a href="http://213.215.135.196/reflector/open/service?REQUEST=GetMap&SERVICE=WMS&VERSION=1.1.1&LAYERS=rv1&STYLES=&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&SRS=EPSG:4326&BBOX={xMinWGS84},{yMinWGS84},{xMaxWGS84},{yMaxWGS84}&WIDTH={grwidth}&HEIGHT={grheight}">RealVista Aerial photo</a><br>
     <b>Wikipedia Search</b>:<br>
     <a href="http://api.geonames.org/wikipediaBoundingBox?north={yMaxWGS84}&south={yMinWGS84}&east={xMinWGS84}&west={xMaxWGS84}&username=demo">Wikipedia Search</a>
 '''
