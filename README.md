@@ -25,6 +25,43 @@ Features
   * Show position in original CRS
   * Show WGS84 Lat/Lon position
   * ...
+  
+Customize it
+------------
+You can customize the output from the tools. Edit the templates under templates/ folder.
+The following variables are available:
+
+  * rect.py:
+  ++ 'xmin': BBOX minimum X
+  ++ 'ymin': BBOX minimum Y
+  ++ 'xmax': BBOX maximum X
+  ++ 'ymax': BBOB maximum Y
+  ++ 'cx': BBOX center X
+  ++ 'cy': BBOX center Y
+  ++ 'geowidth': BBOX geographical width (in project CRS)
+  ++ 'geoheight': BBOX geographical height (in project CRS)
+  ++ 'grwidth':  Graphical width (pixels)
+  ++ 'grheight': Graphical height (pixels)
+  ++ 'mapunits': Map units
+  ++ 'crs': Project CRS
+  ++ 'visiblelayers' : List of visible layers
+  ++ 'xMinWGS84': BBOX minimum X (EPSG:4326)
+  ++ 'yMinWGS84': BBOX minimum Y (EPSG:4326)
+  ++ 'xMaxWGS84': BBOX maximum X (EPSG:4326)
+  ++ 'yMaxWGS84': BBOB maximum Y (EPSG:4326)
+  ++ 'unitsperpixel': Map units per pixel
+  ++ 'z': Slippy Maps/Google Mercator zoom level (best fit for BBOX)
+  ++ 'x': BBOX center X (EPSG:3857)
+  ++ 'y': BBOX center Y (EPSG:3857)
+  
+  * point.py:
+  ** 'cx': Point X
+  ** 'cy': Point Y 
+  ** 'lat': Point Latitude (EPSG:4326)
+  ** 'lon': Point Longitude (ESPG:4326)
+  ** 'z': Slippy Maps/Google Mercator zoom level (best fit for BBOX)
+  ** 'x': BBOX center X (EPSG:3857)
+  ** 'y': BBOX center Y (EPSG:3857)
 
 Roadmap
 -------

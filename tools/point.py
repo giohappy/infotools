@@ -14,7 +14,7 @@ from PyQt4.QtGui import *
 from qgis.core import *
 from qgis.gui import *
 from . import InfoTool
-from ..ui.templates import pointInfos
+from ..templates import point_template
 
 class PointInfoTool(InfoTool):
     def __init__(self,window):
@@ -32,15 +32,15 @@ class PointInfoTool(InfoTool):
         pointWGS84 = self.pointToWGS84(point)
         z,x,y = self.getTileParamsForPoint(point)
         results = {
-           'x_destCrs':x_destCrs,
-           'y_destCrs':y_destCrs,
+           'cx':x_destCrs,
+           'cy':y_destCrs,
            'lat': pointWGS84.x(),
            'lon': pointWGS84.y(),
            'z': z,
            'x': x,
            'y': y
         }
-        self.result = pointInfos.format(**results)
+        self.result = point_template.format(**results)
         super(PointInfoTool,self).done()
         
     def getTileParamsForPoint(self,point):

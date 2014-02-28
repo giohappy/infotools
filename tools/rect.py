@@ -14,7 +14,7 @@ from PyQt4.QtGui import *
 from qgis.core import *
 from qgis.gui import *
 from . import InfoTool
-from ..ui.templates import rectInfos
+from ..templates import rect_template
 from .. import utils
 
 class RectInfoTool(InfoTool):
@@ -74,7 +74,7 @@ class RectInfoTool(InfoTool):
                'x': x,
                'y': y
         }
-        self.result = rectInfos.format(**results)
+        self.result = rect_template.format(**results)
         self.maptool.reset()
         super(RectInfoTool,self).done()
         
