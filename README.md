@@ -25,10 +25,25 @@ Features
   * Show position in original CRS
   * Show WGS84 Lat/Lon position
   * ...
+  * 
+  
+Install
+-------
+
+  1. Checkout the git repository or Download the zip file (https://github.com/giohappy/infotools/archive/master.zip).
+  2. Unzip in your QGIS plugins folder
+  3. Enable the plugin inside QGIS
+ 
+NOTE: In case you download from the zip, rename the extracted folder to **infotools**
+
   
 Customize it
 ------------
-You can customize the output from the tools. Edit the templates under templates/ folder.
+You can customize the output from the tools. Edit the templates under templates/ folder:
+
+  * templates/rect.py: Template for rectangular tool
+  * templates/point.py: Template for point tool
+
 The following variables are available:
 
   * rect.py:
