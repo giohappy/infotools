@@ -17,7 +17,8 @@ Features
   * Show geogrpahical dimensions
   * Show graphical dimensions
   * Show typical WMS GetMap request parameters, ready to me appended to your WMS request
-  * OSM, Google Maps, Wikipedia links
+  * OSM, Google Maps, Bing Maps, Wikipedia links
+  * Realvista aerial photos (only for Italy)
 
 **Point tool**
 
