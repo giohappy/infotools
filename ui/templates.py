@@ -26,6 +26,8 @@ rectInfos = '''
     <a href="http://www.openstreetmap.org/#map={z}/{y}/{x}">OSM map</a><br>
     <b>Google Maps</b>:<br>
     <a href="https://www.google.com/maps?ll={y},{x}&z={z}">Google Maps</a><br>
+    <b>Bing Maps</b>:<br>
+    <a href="http://bing.com/maps/default.aspx?cp={y}~{x}&lvl={z}">Bing Maps</a><br>
     <b>WMS parameters</b>:<br>
     SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS={visiblelayers}&CRS={crs}&BBOX={xmin},{ymin},{xmax},{ymax}&WIDTH={grwidth},&HEIGHT={grheight}<br>
     <b>Wikipedia Search</b>:<br>
