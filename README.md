@@ -34,7 +34,7 @@ Install
   2. Unzip in your QGIS plugins folder
   3. Enable the plugin inside QGIS
  
-NOTE: In case you download from the zip, rename the extracted folder to **infotools**
+NOTE: In case you download from the zip, rename the extracted folder to "**infotools**"
 
   
 Customize it
